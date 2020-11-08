@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/*共通項目*/
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #F0F0EF;
+  min-width: 1200px;
+}
+img{
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  color: #707070;
+}
+.common-inner{
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* header */
+.page-header_item{
+  display: flex;
+  justify-content: space-between;
+  margin:30px 0;
+}
+.page-header_title{
+  font-family: 'Quicksand';
+  font-size: 40px;
+  padding: 10px 0;
+}
+.page-header_nav{
+  margin: 20px 0;
+  display: flex;
+}
+.page-header_nav li{
+  margin-left: 30px;
+  text-transform: uppercase ;
+}
+.page-header_nav a{
+  color: #3C3C39;
+}
+.page-header_nav a:hover{
+  font-weight: bold;
+  background: #707070;
+}
+
+/*main*/
+.menu-list_item{
+  display: flex;
+}
+.page-main h2{
+  font-family: 'Quicksand';
+  font-size: 30px;
+  margin: 60px 0 40px 0;
+}
+.line{
+  border-bottom: 1px #707070 solid;
+}
+.aboutus_comment,
+.access_comment{
+  margin-top:30px;
+}
+.menu-list .large{
+  font-weight: bold;
+  font-size: 20px;
+}
+/* menu content */
+.menu-list img{
+  width: 600px;
+  height: auto;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+.menu-list p{
+  padding:20% 0 ;
+}
+
+
+/*footer*/
+.page-footer{
+  background: #3C3C39;
+}
+.page-footer p{
+  padding: 20px;
+  text-align: center;
+  font: 20px;
+  color: #F0F0EF;
+}
+.page-footer span{
+  margin-left: 20px;
+}
