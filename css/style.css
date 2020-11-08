@@ -32,6 +32,9 @@ h1,h2,h3,h4,h5,h6,p{
   font-size: 40px;
   padding: 10px 0;
 }
+.header-link{
+  color:#707070;
+}
 .page-header_nav{
   margin: 20px 0;
   display: flex;
